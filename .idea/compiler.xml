@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mango_common" />
+        <module name="mango_core" />
+        <module name="mango_admin" />
+        <module name="mango_pom" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mango_admin" target="1.8" />
+      <module name="mango_common" target="1.8" />
+      <module name="mango_core" target="1.8" />
+      <module name="mango_parent" target="1.8" />
+      <module name="mango_pom" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mango_admin" options="-parameters" />
+      <module name="mango_common" options="-parameters" />
+      <module name="mango_core" options="-parameters" />
+      <module name="mango_parent" options="-parameters" />
+      <module name="mango_pom" options="-parameters" />
+    </option>
+  </component>
+</project>
