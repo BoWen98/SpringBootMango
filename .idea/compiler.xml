@@ -8,14 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mango_common" />
         <module name="mango_core" />
-        <module name="mango_admin" />
         <module name="mango_pom" />
+        <module name="mango_admin" />
+        <module name="mango_backup" />
+        <module name="mango_monitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mango_admin" target="1.8" />
+      <module name="mango_backup" target="1.8" />
       <module name="mango_common" target="1.8" />
       <module name="mango_core" target="1.8" />
+      <module name="mango_monitor" target="1.8" />
       <module name="mango_parent" target="1.8" />
       <module name="mango_pom" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,8 +27,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mango_admin" options="-parameters" />
+      <module name="mango_backup" options="-parameters" />
       <module name="mango_common" options="-parameters" />
       <module name="mango_core" options="-parameters" />
+      <module name="mango_monitor" options="-parameters" />
       <module name="mango_parent" options="-parameters" />
       <module name="mango_pom" options="-parameters" />
     </option>

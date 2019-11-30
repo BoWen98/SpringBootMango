@@ -67,6 +67,13 @@
             <version>0.9.1</version>
         </dependency>
 
+        <!--spring-boot-admin-client-->
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+            <version>2.1.2</version>
+        </dependency>
+
         <dependency>
             <groupId>com.bowen</groupId>
             <artifactId>mango_core</artifactId>
